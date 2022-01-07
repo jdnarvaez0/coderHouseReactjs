@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import Logo from "../img/descarga.svg";
+import  CartWidget  from "./CartWidget.js";
 
 function NavBar() {
   return (
@@ -20,7 +21,8 @@ function NavBar() {
           <Nav className="me-ritgh">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#pricing">Contacto</Nav.Link>
+            <Nav.Link href="#car"><CartWidget/></Nav.Link>
           </Nav>
         </Container>
       </Navbar>
