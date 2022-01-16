@@ -1,8 +1,16 @@
-import ItemCount from './ItemCount.js';
+import ItemList from '../components/ItemList'
+import {Row, Container} from 'react-bootstrap'
+
 const ItemListContainer = () => {
 
   return (
-    <ItemCount stock={10} initial={1} /> 
+    <>
+      <Container>
+        <Row className="g-5">
+          <ItemList/>
+        </Row>
+      </Container>
+    </>
   )
 }
 
